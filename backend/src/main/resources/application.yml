@@ -1,0 +1,10 @@
+spring:
+  datasource:
+      url: jdbc:mysql://localhost:3306/supermarket?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+      username: root
+      password: wd650650
+      driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+   mapperLocations: classpath:/mapper/*.xml
+server:
+  port: 8080
