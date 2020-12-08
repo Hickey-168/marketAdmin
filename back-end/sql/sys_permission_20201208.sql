@@ -1,0 +1,10 @@
+INSERT INTO `sys_permission` VALUES (101, 'order', '订单管理', 'order:list', '列表', 1);
+INSERT INTO `sys_permission` VALUES (102, 'order', '订单管理', 'order:add', '新增', 2);
+INSERT INTO `sys_permission` VALUES (103, 'order', '订单管理', 'order:update', '修改', 2);
+INSERT INTO `sys_permission` VALUES (601, 'user', '用户', 'user:list', '列表', 1);
+INSERT INTO `sys_permission` VALUES (602, 'user', '用户', 'user:add', '新增', 2);
+INSERT INTO `sys_permission` VALUES (603, 'user', '用户', 'user:update', '修改', 2);
+INSERT INTO `sys_permission` VALUES (701, 'role', '角色权限', 'role:list', '列表', 1);
+INSERT INTO `sys_permission` VALUES (702, 'role', '角色权限', 'role:add', '新增', 2);
+INSERT INTO `sys_permission` VALUES (703, 'role', '角色权限', 'role:update', '修改', 2);
+INSERT INTO `sys_permission` VALUES (704, 'role', '角色权限', 'role:delete', '删除', 2);
