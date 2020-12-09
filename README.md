@@ -10,7 +10,7 @@
 
 
 
-前端技术栈：html + css + js + vue
+前端技术栈：html + css + js + vue + element-ui
 
 后端技术栈：springboot + mybatis + shiro + fastJson
 

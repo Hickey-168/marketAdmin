@@ -4,9 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.tju.supermarket.config.exception.CommonJsonException;
 import com.tju.supermarket.util.constants.Constants;
 import com.tju.supermarket.util.constants.ErrorEnum;
-import com.tju.supermarket.util.StringTools;
-import com.tju.supermarket.util.constants.Constants;
-import com.tju.supermarket.util.constants.ErrorEnum;
+
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Enumeration;
@@ -128,7 +126,6 @@ public class CommonUtil {
 
 	/**
 	 * 验证是否含有全部必填字段
-	 *
 	 * @param requiredColumns 必填的参数字段名称 逗号隔开 比如"userId,name,telephone"
 	 */
 	public static void hasAllRequired(final JSONObject jsonObject, String requiredColumns) {
