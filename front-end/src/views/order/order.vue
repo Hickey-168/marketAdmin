@@ -67,6 +67,7 @@
           </el-input>
         </el-form-item>
       </el-form>
+
       <div slot="footer" class="dialog-footer">
         <el-button @click="dialogFormVisible = false">取 消</el-button>
         <el-button v-if="dialogStatus=='create'" type="success" @click="createOrder">创 建</el-button>

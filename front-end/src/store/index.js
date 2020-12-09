@@ -8,6 +8,14 @@ import getters from './getters'
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
+  state: {
+    barket:[]
+  },
+  mutations:{
+    newBarket(state,msg){
+      state.barket.push({name:msg})
+    }
+  },
   modules: {
     app,
     user,
